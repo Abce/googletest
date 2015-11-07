@@ -398,6 +398,7 @@
 // assuming CRITICAL_SECTION is a typedef of _RTL_CRITICAL_SECTION.
 // This assumption is verified by
 // WindowsTypesTest.CRITICAL_SECTIONIs_RTL_CRITICAL_SECTION.
+//#define _RTL_CRITICAL_SECTION int
 struct _RTL_CRITICAL_SECTION;
 #else
 // This assumes that non-Windows OSes provide unistd.h. For OSes where this
